@@ -1,12 +1,14 @@
 body{
 background-color: rgb(229, 228, 211);
 font-family:Verdana, Geneva, Tahoma, sans-serif;
-text-align: center;
 }
 h1{
   font-size: 50px;
   font-weight:800;
   margin-bottom: 50px;
+}
+h1,h2,h3,#recipe-category{
+  text-align: center;
 }
 a,a:visited{
   text-decoration: none;
@@ -16,7 +18,7 @@ a,a:visited{
 a:hover{
   color:rgb(8, 124, 124)
 }
-ul li {
+#recipe-category li{
   font-weight: 800;
   font-size: 16px;
   margin:0.5rem 0 0 0 ;
